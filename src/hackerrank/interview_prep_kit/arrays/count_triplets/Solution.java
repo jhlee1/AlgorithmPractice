@@ -27,16 +27,31 @@ public class Solution {
 
             if(map.containsKey(secondNum) && map.containsKey(thirdNum)) {
                 final int currentNumIndex = i;
-                long secondNumsIndexes = map.get(secondNum).stream()
-                        .filter(index -> index > currentNumIndex)
-                        .count();
 
-                long thirdNumIndexes = map.get(thirdNum).stream()
-                        .filter(index -> index > currentNumIndex)
-                        .count();
+                List<Integer> secondNums = map.get(secondNum).stream().filter(index -> index > currentNumIndex)
+                        .collect(toList());
 
-                numOfTriplets += secondNumsIndexes * thirdNumIndexes;
+                for(int secondNumIndex : secondNums) {
+                    long thirdNumIndexes = map.get(thirdNum).stream()
+                            .filter(index -> index > secondNumIndex)
+                            .count();
+
+                    numOfTriplets += thirdNumIndexes;
+                }
             }
+        }
+
+        return numOfTriplets;
+    }
+
+
+    static long countTriplets2(List<Long> arr, long r) {
+        long numOfTriplets = 0;
+        Map<Long, Integer> map = new HashMap<>();
+
+        for(long num : arr) {
+            map.computeIfPresent(num, (key, val) -> val + 1);
+            map.putIfAbsent(num, 1);
         }
 
         return numOfTriplets;
