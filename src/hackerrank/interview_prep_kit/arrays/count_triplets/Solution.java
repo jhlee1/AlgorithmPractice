@@ -47,11 +47,15 @@ public class Solution {
 
     static long countTriplets2(List<Long> arr, long r) {
         long numOfTriplets = 0;
-        Map<Long, Integer> map = new HashMap<>();
+        Map<Long, Long> secondNums = new HashMap<>();
+        Map<Long, Long> thirdNums = new HashMap<>();
 
         for(long num : arr) {
-            map.computeIfPresent(num, (key, val) -> val + 1);
-            map.putIfAbsent(num, 1);
+            numOfTriplets += thirdNums.getOrDefault(num, 0L);
+            if(secondNums.containsKey(num)) {
+                thirdNums.compute(num * r, (key, value) -> value == null ? secondNums.get(num) : value + secondNums.get(num));
+            }
+            secondNums.compute(num * r, (key, value) -> value == null ? 1 : value + 1);
         }
 
         return numOfTriplets;
@@ -71,7 +75,7 @@ public class Solution {
                 .map(Long::parseLong)
                 .collect(toList());
 
-        long ans = countTriplets(arr, r);
+        long ans = countTriplets2(arr, r);
 
         bufferedWriter.write(String.valueOf(ans));
         bufferedWriter.newLine();
