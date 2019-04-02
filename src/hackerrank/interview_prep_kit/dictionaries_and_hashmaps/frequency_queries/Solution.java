@@ -1,4 +1,4 @@
-package hackerrank.interview_prep_kit.arrays.frequency_queries;
+package hackerrank.interview_prep_kit.dictionaries_and_hashmaps.frequency_queries;
 
 import java.io.*;
 import java.util.ArrayList;

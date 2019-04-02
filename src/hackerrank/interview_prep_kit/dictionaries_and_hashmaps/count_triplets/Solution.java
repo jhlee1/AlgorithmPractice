@@ -1,4 +1,4 @@
-package hackerrank.interview_prep_kit.arrays.count_triplets;
+package hackerrank.interview_prep_kit.dictionaries_and_hashmaps.count_triplets;
 
 import java.io.*;
 import java.util.*;

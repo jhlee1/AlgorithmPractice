@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3823a8a-56a7-4ef2-90db-37aa0520dc72" name="Default Changelist" comment="Added an answer for comparator">
-      <change afterPath="$PROJECT_DIR$/expectecOutput" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expectedOutput2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expectedOutput3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/comparator/Solution.java" afterDir="false" />
+    <list default="true" id="e3823a8a-56a7-4ef2-90db-37aa0520dc72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/sherlock_anarams/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/fraudulent_activity_notifications/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/count_triplets/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/count_triplets/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/frequency_queries/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/frequency_queries/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,20 +17,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/comparator/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="272">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/fraudulent_activity_notifications/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/count_triplets/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/minimum_swaps_2/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/sherlock_anarams/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Scanner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4573">
+              <caret line="303" column="20" selection-start-line="303" selection-start-column="20" selection-end-line="303" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63359">
+              <caret line="3798" column="31" selection-start-line="3798" selection-start-column="31" selection-end-line="3798" selection-end-column="31" />
+              <folding>
+                <element signature="e#5027#5028#0" expanded="true" />
+                <element signature="e#5098#5099#0" expanded="true" />
+                <element signature="e#177013#177014#0" expanded="true" />
+                <element signature="e#177054#177055#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/count_triplets/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="60" lean-forward="true" selection-end-column="60" />
+              <caret column="79" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="1148" column="73" lean-forward="true" selection-start-line="1148" selection-start-column="73" selection-end-line="1148" selection-end-column="73" />
+            <state relative-caret-position="18547">
+              <caret line="1148" column="73" selection-start-line="1148" selection-start-column="73" selection-end-line="1148" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -53,53 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/new_year_chaos/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input2">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="1" column="3933" selection-end-line="1" selection-end-column="499999" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expectedOutput3.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input3.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="49" selection-end-line="1" selection-end-column="243254" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expectecOutput">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -120,9 +132,12 @@
       <find>=2</find>
       <find>13=</find>
       <find>()</find>
+      <find>expenditures</find>
+      <find>dk01</find>
     </findStrings>
     <replaceStrings>
       <replace>s</replace>
+      <replace>expenditure</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -150,14 +165,16 @@
         <option value="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/comparator/Checker.java" />
         <option value="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/comparator/Solution.java" />
         <option value="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/comparator/Solution.java" />
+        <option value="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/sherlock_anarams/Solution.java" />
+        <option value="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/fraudulent_activity_notifications/Solution.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="351" />
-    <option name="y" value="285" />
-    <option name="width" value="1401" />
-    <option name="height" value="1002" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="3863" />
+    <option name="height" value="2123" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -197,7 +214,54 @@
               <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
-              <item name="comparator" type="462c0819:PsiDirectoryNode" />
+              <item name="arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="minimum_swaps_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
+              <item name="dictionaries_and_hashmaps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
+              <item name="dictionaries_and_hashmaps" type="462c0819:PsiDirectoryNode" />
+              <item name="count_triplets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
+              <item name="dictionaries_and_hashmaps" type="462c0819:PsiDirectoryNode" />
+              <item name="frequency_queries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
+              <item name="dictionaries_and_hashmaps" type="462c0819:PsiDirectoryNode" />
+              <item name="sherlock_anarams" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
+              <item name="sorting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
+              <item name="sorting" type="462c0819:PsiDirectoryNode" />
+              <item name="fraudulent_activity_notifications" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,8 +273,9 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552882421875" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553218210546" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -251,6 +316,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerrank.interview_prep_kit.sorting.fraudulent_activity_notifications.Solution" />
+      <module name="AlgorithmPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hackerrank.interview_prep_kit.sorting.fraudulent_activity_notifications.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hackerrank.interview_prep_kit.sorting.comparator.Solution" />
       <module name="AlgorithmPractice" />
@@ -268,11 +346,11 @@
       <envs>
         <env name="OUTPUT_PATH" value="output.txt" />
       </envs>
-      <option name="MAIN_CLASS_NAME" value="hackerrank.interview_prep_kit.arrays.count_triplets.Solution" />
+      <option name="MAIN_CLASS_NAME" value="hackerrank.interview_prep_kit.dictionaries_and_hashmaps.count_triplets.Solution" />
       <module name="AlgorithmPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hackerrank.interview_prep_kit.arrays.count_triplets.*" />
+          <option name="PATTERN" value="hackerrank.interview_prep_kit.dictionaries_and_hashmaps.count_triplets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,11 +362,11 @@
       <envs>
         <env name="OUTPUT_PATH" value="output.txt" />
       </envs>
-      <option name="MAIN_CLASS_NAME" value="hackerrank.interview_prep_kit.arrays.frequency_queries.Solution" />
+      <option name="MAIN_CLASS_NAME" value="hackerrank.interview_prep_kit.dictionaries_and_hashmaps.frequency_queries.Solution" />
       <module name="AlgorithmPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hackerrank.interview_prep_kit.arrays.frequency_queries.*" />
+          <option name="PATTERN" value="hackerrank.interview_prep_kit.dictionaries_and_hashmaps.frequency_queries.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,18 +376,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.count_triplets" />
-      <item itemvalue="Application.frequency_queries" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.count_triplets" />
+      <item itemvalue="Application.frequency_queries" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.count_triplets" />
-        <item itemvalue="Application.frequency_queries" />
       </list>
     </recent_temporary>
   </component>
@@ -352,14 +431,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551083631550</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added an answer for comparator">
+      <created>1552882445974</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552882445974</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10059642" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.104572564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -368,15 +454,16 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49860835" weight="0.3289166" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974155" weight="0.26530612" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4998012" weight="0.3998441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32969603" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.500994" side_tool="true" visible="true" weight="0.32969603" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49900597" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5025845" side_tool="true" weight="0.27357754" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49821073" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.4998012" weight="0.32969603" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -406,16 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/minimum_swaps_2/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3434">
@@ -423,7 +500,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/frequency_queries/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/frequency_queries/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
           <caret line="60" selection-start-line="60" selection-end-line="60" />
@@ -433,107 +510,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output.txt">
+    <entry file="file://$PROJECT_DIR$/output.txt" />
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/union_find/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/input2" />
+    <entry file="file://$PROJECT_DIR$/expectedOutput3.txt" />
+    <entry file="file://$PROJECT_DIR$/input3.txt" />
+    <entry file="file://$PROJECT_DIR$/input.txt" />
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/comparator/Checker.java" />
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/comparator/Player.java" />
+    <entry file="file://$PROJECT_DIR$/expectecOutput" />
+    <entry file="file://$PROJECT_DIR$/expectedOutput2.txt" />
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/comparator/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="272">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/union_find/Solution.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        <state relative-caret-position="4573">
+          <caret line="303" column="20" selection-start-line="303" selection-start-column="20" selection-end-line="303" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63359">
+          <caret line="3798" column="31" selection-start-line="3798" selection-start-column="31" selection-end-line="3798" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#5027#5028#0" expanded="true" />
+            <element signature="e#5098#5099#0" expanded="true" />
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/expectedOutput2.txt">
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/count_triplets/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="1" column="3933" selection-end-line="1" selection-end-column="499999" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expectedOutput3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="49" selection-end-line="1" selection-end-column="243254" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expectecOutput">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/new_year_chaos/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <caret column="79" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="1148" column="73" lean-forward="true" selection-start-line="1148" selection-start-column="73" selection-end-line="1148" selection-end-column="73" />
+        <state relative-caret-position="18547">
+          <caret line="1148" column="73" selection-start-line="1148" selection-start-column="73" selection-end-line="1148" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/comparator/Checker.java">
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/new_year_chaos/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/comparator/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/minimum_swaps_2/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/count_triplets/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="60" lean-forward="true" selection-end-column="60" />
+        <state relative-caret-position="340">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/comparator/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/ransom_note/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/sherlock_anarams/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/fraudulent_activity_notifications/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
