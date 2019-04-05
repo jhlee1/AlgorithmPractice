@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3823a8a-56a7-4ef2-90db-37aa0520dc72" name="Default Changelist" comment="- Refactored the packages&#10;- Added sherlock anagrams solution which I solved long time ago">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/unique_paths/Solution.java" afterDir="false" />
+    <list default="true" id="e3823a8a-56a7-4ef2-90db-37aa0520dc72" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/fraudulent_activity_notifications/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+            <state relative-caret-position="238">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -26,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/unique_paths/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="595">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -176,8 +175,8 @@
         <option value="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/comparator/Solution.java" />
         <option value="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/comparator/Solution.java" />
         <option value="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/sherlock_anarams/Solution.java" />
-        <option value="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/fraudulent_activity_notifications/Solution.java" />
         <option value="$PROJECT_DIR$/src/leetcode/unique_paths/Solution.java" />
+        <option value="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/fraudulent_activity_notifications/Solution.java" />
       </list>
     </option>
   </component>
@@ -252,7 +251,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554423968842" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554439701803" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -268,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (4)">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hackerrank.interview_prep_kit.arrays.union_find.Solution" />
       <module name="AlgorithmPractice" />
@@ -346,8 +345,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
@@ -407,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554183328049</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="- Added an answer for uniquepath problem in leetcode">
+      <created>1554424023279</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554424023279</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -423,7 +429,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974155" weight="0.2650039" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4974155" visible="true" weight="0.2650039" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4998012" weight="0.3998441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -451,7 +457,8 @@
     <MESSAGE value="Found the second solution which works well." />
     <MESSAGE value="Added an answer for comparator" />
     <MESSAGE value="- Refactored the packages&#10;- Added sherlock anagrams solution which I solved long time ago" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Refactored the packages&#10;- Added sherlock anagrams solution which I solved long time ago" />
+    <MESSAGE value="- Added an answer for uniquepath problem in leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added an answer for uniquepath problem in leetcode" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/frequency_queries/input05.txt" />
@@ -498,16 +505,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/ransom_note/Solution.java" />
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/fraudulent_activity_notifications/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75854">
@@ -585,8 +582,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/unique_paths/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="595">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/fraudulent_activity_notifications/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
