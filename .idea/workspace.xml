@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3823a8a-56a7-4ef2-90db-37aa0520dc72" name="Default Changelist" comment="- Refactored the packages&#10;- Added sherlock anagrams solution which I solved long time ago">
-      <change afterPath="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/fraudulent_activity_notifications/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/unique_paths/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,28 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/comparator/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/fraudulent_activity_notifications/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/minimum_swaps_2/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="493">
+              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,10 +27,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/unique_paths/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Collections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75854">
+              <caret line="4867" column="8" selection-start-line="4867" selection-start-column="8" selection-end-line="4867" selection-end-column="8" />
+              <folding>
+                <element signature="e#188769#188770#0" expanded="true" />
+                <element signature="e#188822#188823#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/minimum_swaps_2/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/sherlock_anarams/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="71" lean-forward="true" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
+            <state relative-caret-position="255">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63359">
+            <state relative-caret-position="63393">
               <caret line="3798" column="31" selection-start-line="3798" selection-start-column="31" selection-end-line="3798" selection-end-column="31" />
               <folding>
                 <element signature="e#5027#5028#0" expanded="true" />
@@ -160,14 +177,14 @@
         <option value="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/comparator/Solution.java" />
         <option value="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/sherlock_anarams/Solution.java" />
         <option value="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/fraudulent_activity_notifications/Solution.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/unique_paths/Solution.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="3863" />
-    <option name="height" value="2123" />
+    <option name="x" value="-12" />
+    <option name="width" value="969" />
+    <option name="height" value="543" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -175,8 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,37 +230,6 @@
               <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
-              <item name="dictionaries_and_hashmaps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
-              <item name="dictionaries_and_hashmaps" type="462c0819:PsiDirectoryNode" />
-              <item name="count_triplets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
-              <item name="dictionaries_and_hashmaps" type="462c0819:PsiDirectoryNode" />
-              <item name="frequency_queries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
-              <item name="dictionaries_and_hashmaps" type="462c0819:PsiDirectoryNode" />
-              <item name="sherlock_anarams" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
               <item name="sorting" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -260,13 +244,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554183583979" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554423968842" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -282,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
+  <component name="RunManager" selected="Application.Solution (4)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hackerrank.interview_prep_kit.arrays.union_find.Solution" />
       <module name="AlgorithmPractice" />
@@ -322,28 +308,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerrank.interview_prep_kit.sorting.comparator.Solution" />
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.unique_paths.Solution" />
       <module name="AlgorithmPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hackerrank.interview_prep_kit.sorting.comparator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="count_triplets" type="Application" factoryName="Application" temporary="true">
-      <envs>
-        <env name="OUTPUT_PATH" value="output.txt" />
-      </envs>
-      <option name="MAIN_CLASS_NAME" value="hackerrank.interview_prep_kit.dictionaries_and_hashmaps.count_triplets.Solution" />
-      <module name="AlgorithmPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hackerrank.interview_prep_kit.dictionaries_and_hashmaps.count_triplets.*" />
+          <option name="PATTERN" value="leetcode.unique_paths.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,17 +341,16 @@
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.count_triplets" />
       <item itemvalue="Application.frequency_queries" />
+      <item itemvalue="Application.Solution (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.count_triplets" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +414,7 @@
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.104572564" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.105367795" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -454,7 +423,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974155" weight="0.26530612" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974155" weight="0.2650039" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4998012" weight="0.3998441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -462,7 +431,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32969603" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5025845" side_tool="true" weight="0.27357754" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49821073" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49821073" weight="0.32969603" />
       <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.4998012" weight="0.32969603" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -528,6 +497,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/ransom_note/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/fraudulent_activity_notifications/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75854">
+          <caret line="4867" column="8" selection-start-line="4867" selection-start-column="8" selection-end-line="4867" selection-end-column="8" />
+          <folding>
+            <element signature="e#188769#188770#0" expanded="true" />
+            <element signature="e#188822#188823#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/minimum_swaps_2/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/sherlock_anarams/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4573">
@@ -537,7 +548,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63359">
+        <state relative-caret-position="63393">
           <caret line="3798" column="31" selection-start-line="3798" selection-start-column="31" selection-end-line="3798" selection-end-column="31" />
           <folding>
             <element signature="e#5027#5028#0" expanded="true" />
@@ -572,37 +583,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/minimum_swaps_2/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/unique_paths/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/ransom_note/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/fraudulent_activity_notifications/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/sherlock_anarams/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="71" lean-forward="true" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
