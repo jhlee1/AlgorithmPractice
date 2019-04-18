@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3823a8a-56a7-4ef2-90db-37aa0520dc72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/sherlock_and_the_valid_string/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/sherlock_and_the_valid_string/input13.txt" afterDir="false" />
+    <list default="true" id="e3823a8a-56a7-4ef2-90db-37aa0520dc72" name="Default Changelist" comment="- Added a solution for Sherlock and the Valid String problem in hackerrank">
+      <change afterPath="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/common_child/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/special_palindrome/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,43 +18,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/merge_sort_counting_inversions/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
+            <state relative-caret-position="867">
               <caret line="53" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/sherlock_and_the_valid_string/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/sherlock_and_the_valid_string/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/special_palindrome/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            <state relative-caret-position="595">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/sherlock_and_the_valid_string/input13.txt">
+        <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/common_child/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="100000" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output13.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="187">
+              <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
+            <state relative-caret-position="12325">
               <caret line="770" column="13" selection-start-line="770" selection-start-column="13" selection-end-line="770" selection-end-column="13" />
               <folding>
                 <element signature="e#23699#23700#0" expanded="true" />
@@ -76,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/merge_sort/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/System.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="497" column="57" lean-forward="true" selection-start-line="497" selection-start-column="57" selection-end-line="497" selection-end-column="57" />
+            <state relative-caret-position="7701">
+              <caret line="497" column="57" selection-start-line="497" selection-start-column="57" selection-end-line="497" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -96,7 +100,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/strings_making_anagrams/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
+            <state relative-caret-position="782">
               <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -108,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/count_triplets/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="357">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/alternating_characters/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,6 +152,8 @@
       <find>expenditures</find>
       <find>dk01</find>
       <find>first</find>
+      <find>i</find>
+      <find>V</find>
     </findStrings>
     <replaceStrings>
       <replace>s</replace>
@@ -187,6 +193,8 @@
         <option value="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/merge_sort/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/merge_sort_counting_inversions/Solution.java" />
         <option value="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/sherlock_and_the_valid_string/Solution.java" />
+        <option value="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/common_child/Solution.java" />
+        <option value="$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/special_palindrome/Solution.java" />
       </list>
     </option>
   </component>
@@ -253,6 +261,14 @@
               <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interview_prep_kit" type="462c0819:PsiDirectoryNode" />
+              <item name="string_manipulation" type="462c0819:PsiDirectoryNode" />
+              <item name="special_palindrome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="unique_paths" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -267,7 +283,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554874212944" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555571773600" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -288,20 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerrank.interview_prep_kit.sorting.merge_sort.MergeSort" />
-      <module name="AlgorithmPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hackerrank.interview_prep_kit.sorting.merge_sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hackerrank.interview_prep_kit.sorting.merge_sort_counting_inversions.Solution" />
       <module name="AlgorithmPractice" />
@@ -329,11 +332,24 @@
       </method>
     </configuration>
     <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerrank.interview_prep_kit.sorting.fraudulent_activity_notifications.Solution" />
+      <option name="MAIN_CLASS_NAME" value="hackerrank.interview_prep_kit.string_manipulation.common_child.Solution" />
       <module name="AlgorithmPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hackerrank.interview_prep_kit.sorting.fraudulent_activity_notifications.*" />
+          <option name="PATTERN" value="hackerrank.interview_prep_kit.string_manipulation.common_child.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerrank.interview_prep_kit.string_manipulation.special_palindrome.Solution" />
+      <module name="AlgorithmPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hackerrank.interview_prep_kit.string_manipulation.special_palindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -355,19 +371,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (3)" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -473,14 +489,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554788878924</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="- Added a solution for Sherlock and the Valid String problem in hackerrank">
+      <created>1554874274327</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1554874274327</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16302186" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16500995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -523,7 +546,8 @@
     <MESSAGE value="- Added an answer for alternating characters problem in hackerrank" />
     <MESSAGE value="- Added an example code for merge sort from lecture" />
     <MESSAGE value="- Added a solution for counting inversion using merge sort problem in hackerrank" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Added a solution for counting inversion using merge sort problem in hackerrank" />
+    <MESSAGE value="- Added a solution for Sherlock and the Valid String problem in hackerrank" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added a solution for Sherlock and the Valid String problem in hackerrank" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/arrays/frequency_queries/input05.txt" />
@@ -652,27 +676,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/alternating_characters/Solution.java">
+    <entry file="file://$PROJECT_DIR$/input13.txt" />
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/sherlock_and_the_valid_string/input13.txt" />
+    <entry file="file://$PROJECT_DIR$/output13.txt" />
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/merge_sort_counting_inversions/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="867">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/System.java">
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/sherlock_and_the_valid_string/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="497" column="57" lean-forward="true" selection-start-line="497" selection-start-column="57" selection-end-line="497" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/merge_sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -681,7 +701,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
+        <state relative-caret-position="12325">
           <caret line="770" column="13" selection-start-line="770" selection-start-column="13" selection-end-line="770" selection-end-column="13" />
           <folding>
             <element signature="e#23699#23700#0" expanded="true" />
@@ -690,31 +710,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/count_triplets/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/merge_sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="221">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/sorting/merge_sort_counting_inversions/Solution.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="7701">
+          <caret line="497" column="57" selection-start-line="497" selection-start-column="57" selection-end-line="497" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/strings_making_anagrams/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
+        <state relative-caret-position="782">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -722,29 +737,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input13.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/sherlock_and_the_valid_string/input13.txt">
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/dictionaries_and_hashmaps/count_triplets/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="100000" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output13.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/sherlock_and_the_valid_string/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/alternating_characters/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/common_child/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/interview_prep_kit/string_manipulation/special_palindrome/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#957#958#0" expanded="true" />
           </folding>
         </state>
       </provider>
