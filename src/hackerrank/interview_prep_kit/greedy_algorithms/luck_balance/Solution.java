@@ -3,23 +3,33 @@ package hackerrank.interview_prep_kit.greedy_algorithms.luck_balance;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Solution {
 
     // Complete the luckBalance function below.
     static int luckBalance(int k, int[][] contests) {
-        LinkedList<Integer> importants = new LinkedList<>();
-        int result = k;
+        ArrayList<Integer> importants = new ArrayList<>();
+        int result = 0;
 
         for (int i = 0; i < contests.length; i++) {
-            if (contests[i][0] == 0) {
-                result += i;
+            if (contests[i][1] == 0) {
+                result += contests[i][0];
+            } else {
+                importants.add(contests[i][0]);
             }
+        }
 
+        importants.sort(Integer::compareTo);
+        final int takeFromImportants = importants.size() - k > 0 ? importants.size() - k : 0;
 
+        for(int i = importants.size() - 1; i >= takeFromImportants; i--) {
+            result += importants.get(i);
+        }
 
+        for(int i = 0; i < takeFromImportants; i++) {
+            result -= importants.get(i);
         }
 
         return  result;
@@ -28,7 +38,7 @@ public class Solution {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("output06.txt"));
 
         String[] nk = scanner.nextLine().split(" ");
 
