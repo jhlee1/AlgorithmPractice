@@ -1,36 +1,34 @@
 package leetcode.two_sum;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Map;
 
 class Solution {
-    public static int[] twoSum(int[] nums, int target) {
+    public int[] twoSum(int[] nums, int target) {
+        Map<Integer, LinkedList<Integer>> map = new HashMap<>();
         int[] result = new int[2];
 
-        Map<Integer, List<Integer>> map = new HashMap<>();
-
         for(int i = 0; i < nums.length; i++) {
-            map.putIfAbsent(nums[i], new ArrayList<>());
+            map.putIfAbsent(nums[i], new LinkedList<>());
             map.get(nums[i]).add(i);
         }
 
         for (int i = 0; i < nums.length; i++) {
             int firstNum = nums[i];
             if(map.get(target - firstNum) != null) {
+                result[0] = map.get(firstNum).poll();
+
                 if (!map.get(target - firstNum).isEmpty()) {
-                    result[0] = map.get(firstNum).remove(0);
-                    result[1] = map.get(target - firstNum).remove(0);
+                    result[1] = map.get(target - firstNum).poll();
+                    Arrays.sort(result);
+
+                    return result;
                 }
             }
         }
 
-        Arrays.sort(result);
-
-        return result;
-    }
-
-    public static void main(String[] args) {
-        int[] nums = {2, 7, 11, 15};
-
-        twoSum(nums, 9);
+        return null;
     }
 }
