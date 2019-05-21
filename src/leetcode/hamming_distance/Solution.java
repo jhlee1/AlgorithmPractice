@@ -36,4 +36,20 @@ public class Solution {
 
         return result;
     }
+
+    public int hammingDistanceByBitOperation(int x, int y) {
+//        x & y = 10 : if both bits are 1 then 1, else 0
+//        x | y = 10 : if either bit is 1 then 1, else 0
+//        x ^ y = 10 : if the bits are different then 1, else 0
+//        a >> i : shift all bits to right for i times
+//        a << i : shift all bits to left for i times
+        int xor = x ^ y;
+        int result = 0;
+
+        for (int i = 0; i < 32; i++) {
+            result += (xor >> i) & 1;
+        }
+
+        return result;
+    }
 }
