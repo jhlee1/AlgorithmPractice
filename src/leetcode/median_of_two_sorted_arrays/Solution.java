@@ -11,7 +11,7 @@ public class Solution {
 
     while (
         i < nums1.length
-            && j < nums2.length
+            && j < nums2 .length
             && i + j <= medianIndex + 1) {
       if (nums1[i] <= nums2[j]) {
         combinedArray[i + j] = nums1[i];
