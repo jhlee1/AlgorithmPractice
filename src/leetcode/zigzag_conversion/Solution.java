@@ -5,29 +5,42 @@ package leetcode.zigzag_conversion;
  */
 public class Solution {
   public static String convert(String s, int numRows) {
-    StringBuilder result = new StringBuilder();
+    if (numRows <= 1) {
+      return s;
+    }
+
+    char[] result = new char[s.length()];
+    int index = 0;
     final int jumpSize = numRows * 2 - 2;
 
     for (int i = 0; i < s.length(); i += jumpSize) {
-      result.append(s.charAt(i));
+      result[index] = s.charAt(i);
+      index++;
     }
 
     for (int i = 1; i < numRows - 1; i++) {
-      result.append(s.charAt(i));
-
       int j = i;
+      int currentIndex = i * 2;
+      boolean down = true;
       while (j < s.length()) {
-        s.charAt(j);
-
+        result[index] = s.charAt(j);
+        index++;
+        if (down) {
+          j += (jumpSize - currentIndex);
+          down = false;
+        } else {
+          j += currentIndex;
+          down = true;
+        }
       }
-
     }
 
     for (int i = numRows - 1; i < s.length(); i += jumpSize) {
-      result.append(s.charAt(i));
+      result[index] = s.charAt(i);
+      index++;
     }
 
-    return result.toString();
+    return String.valueOf(result);
   }
 
   public static void main(String[] args) {
