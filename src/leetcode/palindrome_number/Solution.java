@@ -5,6 +5,26 @@ package leetcode.palindrome_number;
  */
 public class Solution {
 
+  public static void main(String[] args) {
+    System.out.println(isPalindrome(-10));
+  }
+
+  private static boolean isPalindrome(int x) {
+    final int originalInput = x;
+    int reversed = 0;
+
+    if (x < 0) {
+      return false;
+    }
+
+    while (x > 0) {
+      reversed *= 10;
+      reversed += x % 10;
+      x /= 10;
+    }
+
+    return reversed == originalInput;
+  }
 }
 
 // Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
