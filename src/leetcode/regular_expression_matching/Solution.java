@@ -5,16 +5,53 @@ package leetcode.regular_expression_matching;
  */
 public class Solution {
   public static boolean isMatch(String s, String p) {
+    int sIndex = 0;
+    int pIndex = 0;
 
-    return false;
+    while(pIndex < s.length()  && sIndex < p.length()) {
+      if (p.charAt(pIndex) == '*') {
+        pIndex--;
+        while (sIndex >= 0 &&isEqual(p.charAt(pIndex), s.charAt(sIndex))) {
+          sIndex--;
+        }
+        pIndex--;
+      } else {
+        if (!isEqual(p.charAt(pIndex), s.charAt(sIndex))) {
+          return false;
+        }
+        pIndex--;
+        sIndex--;
+      }
+    }
+
+    if (sIndex > 0 || pIndex > 0) {
+      return false;
+    }
+
+    return true;
+  }
+
+  private static boolean isEqual(char left, char right) {
+    if (left == '.' || right == '.') {
+      return true;
+    } else if (left == right) {
+      return true;
+    } else {
+      return false;
+    }
   }
 
 
   public static void main(String[] args) {
-    isMatch("aa", "a");
+    System.out.println(isMatch("aa", "a"));
+    System.out.println(isMatch("aa", "a*"));
+    System.out.println(isMatch("ab", ".*"));
+    System.out.println(isMatch("aab", "c*a*b"));
+    System.out.println(isMatch("mississippi", "mis*is*p*."));
+    System.out.println(isMatch("mississippi", "mis*is*ip*."));
+        System.out.println(isMatch("aaa", "aaaa"));
   }
 }
-
 
 //Given an input string (s) and a pattern (p), implement regular expression matching with support for '.' and '*'.
 //
