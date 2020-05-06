@@ -1,4 +1,4 @@
-package programmers.practice_kit.hash.level1;
+package programmers.practice_kit.hash.level1_retired_player;
 
 import java.util.HashMap;
 import java.util.Map;
