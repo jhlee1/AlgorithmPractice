@@ -14,12 +14,9 @@ import java.util.stream.IntStream;
 public class Main {
 
   public static void main(String[] args) {
-//["classic", "pop", "classic", "classic", "pop"] 	[500, 600, 150, 800, 2500] 	[4, 1, 3, 0]
     int[] result = solution(new String[]{"classic", "pop", "classic", "classic", "pop"}, new int[]{500, 600, 150, 150, 2500});
 
     System.out.println(IntStream.of(result).mapToObj(String::valueOf).collect(Collectors.joining(",")));
-
-
   }
 
   public static int[] solution(String[] genres, int[] plays) {
@@ -58,9 +55,4 @@ public class Main {
         .mapToInt(Integer::intValue)
         .toArray();
   }
-
 }
-
-
-//genres 	plays 	return
-//["classic", "pop", "classic", "classic", "pop"] 	[500, 600, 150, 800, 2500] 	[4, 1, 3, 0]
