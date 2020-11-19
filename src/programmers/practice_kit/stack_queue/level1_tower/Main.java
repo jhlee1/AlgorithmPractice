@@ -1,4 +1,4 @@
-package programmers.practice_kit.hash.stack_queue.level1_tower;
+package programmers.practice_kit.stack_queue.level1_tower;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;
