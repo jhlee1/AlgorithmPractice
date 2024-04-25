@@ -1,35 +1,45 @@
 package leetcode.merge_two_sorted_lists;
 
-
+// 21. https://leetcode.com/problems/merge-two-sorted-lists/
 class Solution {
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        ListNode result = new ListNode(0);
-        ListNode currentPoint = result;
-        while(l1 != null && l2 != null) {
-            if (l1.val >= l2.val) {
-                currentPoint.next = new ListNode(l2.val);
-                l2 = l2.next;
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+        if (list1 == null) {
+            return list2;
+        }
+
+        if (list2 == null) {
+            return list1;
+        }
+
+        ListNode head;
+        if (list1.val <= list2.val) {
+            head = list1;
+            list1 = list1.next;
+        } else {
+            head = list2;
+            list2 = list2.next;
+        }
+
+        ListNode result = head;
+
+        while (list1 != null && list2 != null) {
+            if (list1.val <= list2.val) {
+                head.next = list1;
+                list1 = list1.next;
             } else {
-                currentPoint.next = new ListNode(l1.val);
-                l1 = l1.next;
+                head.next = list2;
+                list2 = list2.next;
             }
-
-            currentPoint = currentPoint.next;
+            head = head.next;
         }
 
-        while (l1 != null) {
-            currentPoint.next = new ListNode(l1.val);
-            currentPoint = currentPoint.next;
-            l1 = l1.next;
+        if (list1 == null) {
+            head.next = list2;
+        } else {
+            head.next = list1;
         }
 
-        while (l2 != null) {
-            currentPoint.next = new ListNode(l2.val);
-            currentPoint = currentPoint.next;
-            l2 = l2.next;
-        }
-
-        return result.next;
+        return result;
     }
 
     class ListNode {

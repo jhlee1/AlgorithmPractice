@@ -6,47 +6,40 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
-/**
- * Created by Joohan Lee on 2020/05/13
- */
-public class Solution {
+// 20. https://leetcode.com/problems/valid-parentheses/
 
-  public static void main(String[] args) {
-
-  }
-
-  public static boolean isValid(String s) {
-    List<Character> leftSides = Arrays.asList('(', '{', '[');
-    Stack<Character> charactersOnLeft = new Stack<>();
+class Solution {
+  public boolean isValid(String s) {
+    Stack<Character> chars = new Stack<>();
 
     for (char c : s.toCharArray()) {
-      if (leftSides.contains(c)) {
-        charactersOnLeft.push(c);
+      if (c == '(' || c == '{' || c == '[') {
+        chars.add(c);
       } else {
-        if (charactersOnLeft.isEmpty() || !isPair(charactersOnLeft.pop(), c)) {
+
+        if (chars.isEmpty()) {
+          return false;
+        }
+        char polledChar = chars.pop();
+
+        if (polledChar == '(' && c != ')') {
+          return false;
+        }
+
+        if (polledChar == '{' && c != '}') {
+          return false;
+        }
+
+        if (polledChar == '[' && c != ']') {
           return false;
         }
       }
     }
 
-    return charactersOnLeft.isEmpty();
-  }
+    return chars.isEmpty();
 
-  private static boolean isPair(char left, char right) {
-    switch (right) {
-      case ']':
-        return left == '[';
-      case '}':
-        return left == '{';
-      case ')':
-        return left == '(';
-      default:
-        return false;
-    }
   }
-
 }
-
 
 //Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 //

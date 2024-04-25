@@ -1,2 +1,4 @@
-package leetcode.task_scheduler;public class Solution {
+package leetcode.task_scheduler;
+
+class Solution {
 }
